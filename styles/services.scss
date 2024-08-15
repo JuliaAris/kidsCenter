@@ -1,0 +1,80 @@
+.services {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.services_title {
+  text-align: center;
+}
+.services_subtitle {
+  text-align: center;
+}
+
+.services_wrapper_kinder {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.services_wrapper_kinder-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+}
+
+.services_image__1 {
+  border-radius: 30px;
+  border: 5px solid #fae01a;
+}
+
+.services_wrapper_kinder-1__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.services_wrapper_kinder-1__button {
+  background-color: #1adffa;
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  font-size: $font-size-primary-norm;
+  font-weight: $font-weight-primary-bold;
+  width: fit-content;
+  align-self: center;
+}
+
+.services_wrapper_kinder-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.services_wrapper_kinder-2__card {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.services_image__2 {
+  border-radius: 30px;
+  border: 5px solid #fae01a;
+}
+
+.services_wrapper_kinder-2__button {
+  background-color: #1adffa;
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  font-size: $font-size-primary-norm;
+  font-weight: $font-weight-primary-bold;
+  width: fit-content;
+  align-self: center;
+}

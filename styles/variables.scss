@@ -1,0 +1,36 @@
+$font-family-primary: "Commissioner", sans-serif; //основной текст
+$font-size-primary-norm: 22px;
+$font-size-primary-large: 48px;
+$font-size-primary-semi: 36px;
+$font-size-primary-small: 20px;
+$font-weight-primary-norm: 400;
+$font-weight-primary-bold: 600;
+$line-height: 1.5;
+$font-family-main-heading: "Commissioner", sans-serif; //главный заголовок
+$font-family-small-headings: "Commissioner", sans-serif; //заголовки
+$main-color-black: #000;
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: $font-family-primary;
+  font-weight: $font-weight-primary-norm;
+  font-size: $font-size-primary-small;
+}
+
+h1 {
+  font-family: $font-family-main-heading;
+  font-weight: $font-weight-primary-bold;
+  font-size: $font-size-primary-large;
+}
+h2 {
+  font-family: $font-family-small-headings;
+  font-weight: $font-weight-primary-bold;
+  font-size: $font-size-primary-semi;
+}
+body,
+h1,
+h2 {
+  line-height: $line-height;
+  color: $main-color-black;
+}

@@ -1,0 +1,28 @@
+.cover {
+  display: flex;
+  margin-top: 160px;
+}
+
+.cover_wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.cover_titles {
+  margin: 30px;
+  padding: 30px;
+}
+
+h1 {
+  color: #eb410c;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+h2 {
+  color: #eb410c;
+  margin-bottom: 40px;
+}
+
+.main-picture {
+  margin-top: 30px;
+}
